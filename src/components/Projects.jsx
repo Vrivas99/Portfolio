@@ -10,7 +10,7 @@ const Projects = () => {
                 <Code className="w-10 h-10 text-yellow-500" />
                 <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-white">Proyectos & Colaboraciones</h2>
             </div>
-            <p>Proximanete :D</p>
+            <p>Aqui van los proyectio 3</p>
         </section>
   )
 }
