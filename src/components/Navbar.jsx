@@ -3,7 +3,7 @@ import Code from 'public/svg/code.svg'
 import Home from 'public/svg/home.svg'
 import Contact from 'public/svg/contact.svg'
 import About from 'public/svg/person.svg'
-import Work from 'public/svg/Work.svg'
+import Work from '/svg/Work.svg'
 
 import NavBtn from './NavBtn'
 
