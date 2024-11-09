@@ -4,7 +4,7 @@ const nextConfig = {
         turboMode: false,
     },
     output: 'export',
-    distDir: 'dist',
+    distDir: 'out',
     images: {
         unoptimized: true,
     },
