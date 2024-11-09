@@ -14,6 +14,9 @@ module.exports = {
         smaltBlue: "var(--smaltBlue)",
         rockBlue: "var(--rockBlue)",
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
     },
   },
   plugins: [],
