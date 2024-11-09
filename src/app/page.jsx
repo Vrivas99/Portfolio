@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Linkedin from 'public/linkedin.svg'
-import Github from 'public/github.svg'
-import Cv from 'public/cv.svg'
+import Linkedin from 'public/svg/linkedin.svg'
+import Github from 'public/svg/github.svg'
+import Cv from 'public/svg/cv.svg'
 import SocialButton from "@/components/SocialButton";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <div className="flex gap-3">
             <Image
-              src="/cl.png"
+              src="/img/cl.png"
               alt="CL"
               width={40}
               height={25}
@@ -34,7 +34,7 @@ export default function Home() {
         </article>
         <span className="z-10 relative bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500 w-52 h-52 p-1 flex justify-center rounded-full">
           <Image
-            src="/fotoPerfil.jpg"
+            src="/img/fotoPerfil.jpg"
             alt="Vicente"
             width={200}
             height={200}

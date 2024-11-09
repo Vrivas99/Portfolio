@@ -1,9 +1,9 @@
 // Portfolio navbar
-import Code from 'public/code.svg'
-import Home from 'public/home.svg'
-import Contact from 'public/contact.svg'
-import About from 'public/person.svg'
-import Work from 'public/Work.svg'
+import Code from 'public/svg/code.svg'
+import Home from 'public/svg/home.svg'
+import Contact from 'public/svg/contact.svg'
+import About from 'public/svg/person.svg'
+import Work from 'public/svg/Work.svg'
 
 import NavBtn from './NavBtn'
 
@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="fixed right-10 top-1/2 transform -translate-y-1/2 gap-7 flex flex-col">
+        <nav className="fixed z-20 right-10 top-1/2 transform -translate-y-1/2 gap-7 flex flex-col">
             <NavBtn href="#Home" tooltip="Inicio">
                 <Home />
             </NavBtn>

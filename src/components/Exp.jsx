@@ -1,5 +1,5 @@
 import React from 'react'
-import Work from 'public/Work.svg'
+import Work from 'public/svg/Work.svg'
 
 const Exp = () => {
     return (

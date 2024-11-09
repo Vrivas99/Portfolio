@@ -3,6 +3,11 @@ const nextConfig = {
     experimental: {
         turboMode: false,
     },
+    output: 'export',
+    distDir: 'dist',
+    images: {
+        unoptimized: true,
+    },
     webpack(config) {
         config.module.rules.push({
             test: /\.svg$/,

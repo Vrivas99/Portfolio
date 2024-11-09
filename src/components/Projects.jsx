@@ -1,5 +1,5 @@
 import React from 'react'
-import Code from 'public/code.svg'
+import Code from 'public/svg/code.svg'
 
 const Projects = () => {
   return (
