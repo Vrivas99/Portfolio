@@ -9,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <section id="Home" className="gap-10 relative w-full flex flex-col items-center justify-center">
+    <section id="Home" className="h-screen gap-10 relative w-full flex flex-col items-center justify-center">
       <div className="flex justify-center">
         <span className="absolute top-10 right-full blur-xl w-96 h-96 rounded-full animate-spin-slow bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500" />
         <span className="absolute top-10 right-full w-96 h-96 blur bg-background rounded-full" />

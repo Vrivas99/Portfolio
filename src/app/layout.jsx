@@ -4,6 +4,7 @@ import { Nunito } from 'next/font/google'
 //Components
 import Navbar from "@/components/Navbar.jsx";
 import Exp from "@/components/Exp";
+import Projects from "@/components/Projects";
 
 const nunito = Nunito({
   weight: ['200', '300', '400', '500', '600', '700', '800', '900', '1000',],
@@ -21,9 +22,10 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${nunito.className} scroll-smooth`}>
       <body className="mx-auto max-w-3xl px-5 flex flex-col"> 
         <Navbar />
-        <main className="flex flex-col gap-32 mt-32" >
+        <main className="flex flex-col" >
           {children}
           <Exp />
+          <Projects />
         </main>
       </body>
     </html>
