@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${nunito.className} scroll-smooth`}>
       <body className="mx-auto max-w-3xl px-5 flex flex-col"> 
         <Navbar />
-        <main className="flex flex-col gap-10" >
+        <main className="flex flex-col gap-32 mt-32" >
           {children}
           <Exp />
         </main>

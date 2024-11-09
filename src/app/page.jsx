@@ -9,12 +9,10 @@ export default function Home() {
 
 
   return (
-    <section id="Home" className=" gap-10 relative w-full h-screen flex flex-col items-center justify-center">
+    <section id="Home" className="gap-10 relative w-full flex flex-col items-center justify-center">
       <div className="flex justify-center">
-        <span className="absolute bottom-10 right-full blur-xl w-96 h-96 rounded-full animate-spin-slow bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500" />
-        <span className="absolute bottom-10 right-full w-96 h-96 blur bg-background rounded-full" />
-        <span className="absolute top-10 left-full blur-xl w-96 h-96 rounded-full animate-spin-slow bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500" />
-        <span className="absolute top-10 left-full w-96 h-96 blur bg-background rounded-full" />
+        <span className="absolute top-10 right-full blur-xl w-96 h-96 rounded-full animate-spin-slow bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500" />
+        <span className="absolute top-10 right-full w-96 h-96 blur bg-background rounded-full" />
         <article className=" z-10 flex text-pretty flex-col gap-4 justify-center h-auto w-2/3">
           <h1 className="text-4xl font-bold">Hola<span className=" font-bold text-5xl text-yellow-500">!</span> soy Vicente</h1>
           <p>
