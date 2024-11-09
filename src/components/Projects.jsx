@@ -10,20 +10,7 @@ const Projects = () => {
                 <Code className="w-10 h-10 text-yellow-500" />
                 <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-white">Proyectos & Colaboraciones</h2>
             </div>
-            <ol className="relative border-s border-yellow-500 ">
-                <li className="mb-10 ms-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white "></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Feb 2022 - Actualidad</time>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white"><span className='text-yellow-500'>Walmart</span> Operador de tienda</h3>
-                    <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Me desempeño en variedad de trabajos, fomentando el trabajo colaborativo, comunicación, proactivdad y resolución de problemas.</p>
-                </li>
-                <li className="mb-10 ms-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white "></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">18 Oct 2023 - 20 Nov 2023</time>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white"><span className='text-yellow-500'>DuocUC</span> UI/UX & FrontEnd Developer</h3>
-                    <p className="text-base font-normal text-gray-500 dark:text-gray-400">Desarrollé prototipado con Figma y desarrollo web con NextJS, JavaScript, Python y TailwindCSS.</p>
-                </li>
-            </ol>
+            <p>Proximanete :D</p>
         </section>
   )
 }
