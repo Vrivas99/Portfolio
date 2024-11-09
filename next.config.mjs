@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        turboMode: false,
-    },
     output: 'export',
     distDir: 'out',
     images: {
