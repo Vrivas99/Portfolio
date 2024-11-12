@@ -20,9 +20,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${nunito.className} scroll-smooth`}>
-      <body className="mx-auto max-w-3xl px-5 flex flex-col"> 
+      <body id="container" className="mx-auto max-w-3xl px-5 flex flex-col"> 
         <Navbar />
-        <main className="flex flex-col" >
+        <main className="flex flex-col gap-16 my-20">
           {children}
           <Exp />
           <Projects />

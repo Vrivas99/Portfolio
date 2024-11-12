@@ -3,9 +3,7 @@ import Work from 'public/svg/work.svg'
 
 const Exp = () => {
     return (
-        <section id='Experience' className='h-screen relative w-full flex flex-col justify-center'>
-            <span className="absolute top-10 left-full blur-xl w-96 h-96 rounded-full animate-spin-slow bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500" />
-            <span className="absolute top-10 left-full w-96 h-96 blur bg-background rounded-full" />
+        <section id='Experience' className='w-full flex flex-col justify-center'>
             <div className='flex gap-3 align-middle justify-start'>
                 <Work className="w-10 h-10 text-yellow-500" />
                 <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-white">Experiencia</h2>

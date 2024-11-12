@@ -9,13 +9,11 @@ export default function Home() {
 
 
   return (
-    <section id="Home" className="h-screen gap-10 relative w-full flex flex-col items-center justify-center">
+    <section id="Home" className="gap-10 w-full flex flex-col items-center justify-center">
       <div className="flex justify-center">
-        <span className="absolute top-10 right-full blur-xl w-96 h-96 rounded-full animate-spin-slow bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500" />
-        <span className="absolute top-10 right-full w-96 h-96 blur bg-background rounded-full" />
-        <article className=" z-10 flex text-pretty flex-col gap-4 justify-center h-auto w-2/3">
+        <article className="z-10 flex text-pretty flex-col gap-4 justify-center h-auto w-auto">
           <h1 className="text-4xl font-bold">Hola<span className=" font-bold text-5xl text-yellow-500">!</span> soy Vicente</h1>
-          <p>
+          <p className="pr-10">
             Estudiante de ingenieria en informatica,
             <span className=" font-bold text-xl text-yellow-500"> +2 </span>
             años desarrollando frontend y entusiaste de la UX/UI.
@@ -30,17 +28,17 @@ export default function Home() {
             />
             <p className="font-bold">Chile, Valparaíso.</p>
           </div>
-
         </article>
-        <span className="z-10 relative bg-gradient-to-r from-purple-500 via-red-500 to-yellow-500 w-52 h-52 p-1 flex justify-center rounded-full">
+        {/* foto de perfil */}
+        <div className="w-2/3 hidden sm:flex">
           <Image
             src="/img/fotoPerfil.jpg"
             alt="Vicente"
             width={200}
             height={200}
-            className="absolute left-3 top-2 rounded-full bg-background p-2"
+            className="rounded-full bg-transparent p-2 border-dotted border-4 border-yellow-500"
           />
-        </span>
+        </div>
       </div>
       <span className="w-full h-0.5 bg-slate-600"></span>
       {/* redes sociales */}
@@ -62,7 +60,7 @@ export default function Home() {
           <SocialButton
             download
             alt="Descargar CV"
-            href="/cv.pdf"
+            href="pdf/cv.pdf"
             bgColor="bg-green-800"
           >
             <Cv width={30} />
