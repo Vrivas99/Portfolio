@@ -9,9 +9,10 @@ const Card = ({ title, imageSrc, description, tags, gitHref }) => {
                 <Image
                     src={imageSrc}
                     alt={title}
-                    width={400}  // Ajusta estos valores según tus necesidades
+                    width={400}
                     height={300}
                     className="rounded object-cover w-full sm:h-80 h-60"
+                    
                 />
             </div>
             <div className="sm:p-4 p-2 sm:w-1/2 flex flex-col gap-3 justify-between">
