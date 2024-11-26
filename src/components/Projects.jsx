@@ -7,7 +7,7 @@ const Projects = () => {
     <section id='Projects' className='w-full flex flex-col justify-center gap-3'>
       <div className='flex gap-3 align-middle justify-start'>
         <Code className="w-10 h-10 text-yellow-500" />
-        <h2 className="mb-8 text-3xl font-bold text-white">Proyectos & Colaboraciones</h2>
+        <h2 className="mb-8 text-3xl font-bold text-white">Proyectos & Colaboraciones (en desarrollo)</h2>
       </div>
       <Card
         title="EnganchAI"
